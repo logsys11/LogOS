@@ -79,7 +79,7 @@ local rTaco = function()
 	x, y = term.getSize()
 	local nWindow1 = window.create(term.current(), 1,2,x,y-1, true)
 	term.redirect(nWindow1)
-	shell.run("taco")
+	shell.run("LuaIDE")
 	term.redirect(term.native())
 	nWindow1.setVisible(false)
 end

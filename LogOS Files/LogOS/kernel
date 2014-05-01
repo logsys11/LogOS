@@ -84,33 +84,17 @@ getTaco = function()
 	term.setTextColor(colors.white)
 	term.clear()
 	term.setCursorPos(1,1)
-	print("Taco is not available by default due to copyright, but we can download it for you. Y/N?")
+	print("LuaIDE is not available by default due to copyright, but we can download it for you. Y/N?")
 	t1 = read()
 	if t1 == "y" or t1 == "Y" then
-		shell.run("pastebin",  "get", "w1RtfqFd", "market")
-		shell.run("market", "get", "gjdh1m", "taco", "y")
+		shell.run("pastebin",  "get", "vyAZc6tJ", "LuaIDE")
 		settingsH = fs.open("LogOS/cfg.ini", "w")
 		settingsH.writeLine(user1)
 		settingsH.writeLine(pass1)
 		settingsH.writeLine(passOnLogon)
 		settingsH.writeLine("yes")
 		settingsH.close()
-		fs.delete("market")
 		tacoI = "yes"
-		
-	elseif t1 == "e" or t1 == "E" then
-		settingsH = fs.open("LogOS/cfg.ini", "w")
-		settingsH.writeLine(user1)
-		settingsH.writeLine(pass1)
-		settingsH.writeLine(passOnLogon)
-		settingsH.writeLine("yes")
-		settingsH.close()
-		x, y = term.getSize()
-		local nWindow = window.create(term.current(), 1,2,x,y-1, true)
-		term.redirect(nWindow)
-		shell.run("taco")
-		term.redirect(term.native())
-		nWindow.setVisible(false)
 	else
 		print("Aborted...")
 		sleep(2)
@@ -188,6 +172,6 @@ end
 
 --Normal use functions please!
 os.version = function()
-	return "LogOS V1.2.2 Dev Pre-Release"
+	return "LogOS V1.2.2"
 end
 
