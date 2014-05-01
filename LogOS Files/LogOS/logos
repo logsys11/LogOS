@@ -87,7 +87,7 @@ local fb = function()
 	x, y = term.getSize()
 	local nWindow1 = window.create(term.current(), 1,2,x,y-1, true)
 	term.redirect(nWindow1)
-	shell.run("fileB")
+	shell.run("LogOS/fileB")
 	term.redirect(term.native())
 	nWindow1.setVisible(false)
 end
