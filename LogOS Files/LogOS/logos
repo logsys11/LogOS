@@ -83,7 +83,14 @@ local lIDE = function()
 	term.redirect(term.native())
 	nWindow1.setVisible(false)
 end
-
+local fb = function()
+	x, y = term.getSize()
+	local nWindow1 = window.create(term.current(), 1,2,x,y-1, true)
+	term.redirect(nWindow1)
+	shell.run("fileB")
+	term.redirect(term.native())
+	nWindow1.setVisible(false)
+end
 local darkchat = function()
 	x, y = term.getSize()
 	local nWindow2 = window.create(term.current(), 1,2,x,y-1, true)
@@ -111,7 +118,7 @@ local function main()
 					print("Text Editor ")
 					print("Run Program ")
 					print("Chat        ")
-					print("------------")
+					print("File Browser")
 					print("Shutdown    ")
 					print("Restart     ")
 					print("------------")
@@ -154,7 +161,7 @@ local function main()
 						printed = false
 						completeDraw()
 					elseif yP == 5 then
-						--nothing
+						fb()
 						printed = false
 						completeDraw()
 					elseif yP == 6 then
