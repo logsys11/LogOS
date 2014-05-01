@@ -188,6 +188,6 @@ end
 
 --Normal use functions please!
 os.version = function()
-	return "LogOS V1.2.2 Dev RC2"
+	return "LogOS V1.2.2 Dev Pre-Release"
 end
 
