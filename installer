@@ -160,7 +160,7 @@ term.setCursorPos(1, 1)
 term.write("LogOS Installer///////////////////////////////////////////////////////////////")
 print("")
 print("Ask for password on boot?(Y/N)")
-event, response = os.pullEvent("char")
+event, y = os.pullEvent("char")
 if y == "y" or y == "Y" then
         h.writeLine("yes")
 else
