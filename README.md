@@ -9,6 +9,14 @@ Installation
 ====
 A simple "pastebin run PpPfi2ab" will install it. If it doesn't work run: "pastebin get PpPfi2ab setup" and after "setup".
 
+FAQ
+====
+Q:Is this a copy of *****?
+A: No, in any way. If we use some parts of other OSes or API, it will be proper credited.
+
+Q: I found a bug! How can I report it?
+A: Go to https://github.com/logsys11/LogOS/issues and report your issue.
+
 Copyright
 ====
 
