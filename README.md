@@ -1,3 +1,17 @@
+Welcome to LogOS Repository
+
+All files(inside "LogOS Files") are requeried to the system work, also, running the installer would be advised so it configures the config file and set the password and basic dependencies
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+Installation
+====
+A simple "pastebin run PpPfi2ab" will install it. If it doesn't work run: "pastebin get PpPfi2ab setup" and after "setup".
+
+Copyright
+====
+
 Copyright (C) 2014 João Pacheco a.k.a logsys [transpois0n@me.com]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
@@ -14,9 +28,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
--------------------------------------------------------------------------------------------------------------------------------
-
-Welcome to LogOS Repository
-
-All files(inside "LogOS Files") are requeried to the system work, also, running the installer would be advised so it configures the config file and set the password and basic dependencies
